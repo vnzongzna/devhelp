@@ -98,9 +98,75 @@ textarea {
    ========================================================================== */
 #part1{
     padding-top: 1px;
-    height:700px;
-    background-image: url(/img/hackathon.jpg);
+    height:800px;
+    background-image: url(../img/hackathon.jpg);
     background-size: cover;
+}
+#mpart1{
+    padding-top: 1px;
+    height:700px;
+    background-image: url(../img/proj.jpg);
+    background-size: cover; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#form{
+    height: 400px;
+    width: 1000px;
+    background-color: azure;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.9), 0 -10px 20px rgba(0,0,0,0.9);
+    margin-top: 5px;
+    font-family: 'Montserrat', sans-serif; 
+}
+#form input{
+    margin-left: 20px;
+    height: 30px;
+    width: 300px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    margin-bottom: 20px;
+    padding: 0;
+    color: darkgray;
+    font-family: 'Montserrat', sans-serif; 
+}
+[type="button"]{
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif; 
+    color: deepskyblue;
+    width: 100px !important;
+}
+.log{
+    margin-left: 20px;
+    color: deepskyblue;
+    font-family: 'Montserrat', sans-serif; 
+}
+
+.log2{
+     margin-left: 20px;
+    margin-bottom: 0px !important;
+    margin-top: 0px !important;
+    font-weight: 300;
+    color: deepskyblue;
+    font-family: 'Montserrat', sans-serif;
+}
+.help{
+    height: 50px;
+    width: 60px;
+    background-color: deepskyblue;
+    color: azure !important;
+}
+.vr{
+    border-left: 6px solid gray;
+    height: 200px;
+    margin-left: 500px;
+    position: relative;
+    opacity: 0.5;
+    bottom: 200px;
+}
+.shift{
+    margin-left: 525px;
+    position: relative;
+    bottom: 447px;
 }
 #heading_main{
     padding-top: 220px; 
@@ -157,7 +223,7 @@ textarea {
 #navbar a:hover{
     color:grey;
 }
-#navbar a:active{
+#navbar .active{
     color: turquoise;
 }
 #part2{
@@ -182,8 +248,13 @@ textarea {
     color: grey;
     font-size: 15px;
     font-family: Montserrat;
+    
 }
-
+#footer{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: black;
+}
 
 
 
