@@ -1,2 +1,2 @@
 # devhelp
-A real time queue to help developers an mentors in hackathons or class
+A real time queue to help developers and mentors in hackathons or class
